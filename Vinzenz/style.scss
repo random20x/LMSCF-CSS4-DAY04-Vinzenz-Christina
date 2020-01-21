@@ -1,0 +1,29 @@
+/* Define standard variables and values for website */
+$background-color: lightyellow;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+section.wrapper{
+	width: 80%;
+  	max-width: 1000px;
+  	margin: 0 auto;
+  	background-color:$background-color;
+  	border: 5px solid green;
+}
+
+div.column {
+  width: 30%;
+  border: 5px solid black;
+  display: inline-block;
+ }
+
+ div.colum img{
+ 	width:100%;
+ }

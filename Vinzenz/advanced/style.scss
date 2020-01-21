@@ -1,0 +1,26 @@
+
+body {
+  background-color: black;
+}
+
+section.wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: yellow;
+  border: 5px solid green;
+}
+
+div.column {
+  width: 30%;
+  border: 5px solid black;
+  display: inline-block;
+}
+
+img {
+  object-fit: $fit-1;
+}
+
+div.column img {
+  width: 100%;
+}
