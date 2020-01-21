@@ -1,0 +1,11 @@
+
+	(1) border 
+		dann auch noch border before
+			& auch border after
+
+	(2)transition stays the same but changes for expample color, axis, etc
+		transformation: the whole object can transform into a new one.
+
+	(3)here to get the exact/nearly exact same versions of every layout the correct same way in every Browser.
+
+	(4)flex container & flex items
