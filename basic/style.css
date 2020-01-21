@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 1.5em;
+}
+#container {
+	width: 50%;
+	margin: auto;
+}
+
+/* title */
+
+#title {
+	font-size: 1.7em;
+	text-align: center;
+	padding: 50px 0;
+}
+
+/* box with text */
+
+#tools {
+	margin: auto;
+	padding: 10px 10px;
+	background-color: lightblue;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px 0 grey;
+}
+#tools div {
+	margin: 10px 0;
+}
+a {
+	color: black;
+	transition: all 0.5s ease-in;
+}
+#tools :nth-child(1) a:hover {
+	font-size: 1.55em;
+	color: red;
+}
+#tools :nth-child(2) a:hover {
+	font-size: 1.55em;
+	color: yellow;
+}
+#tools :nth-child(3) a:hover {
+	font-size: 1.55em;
+	color: green;
+}
+#tools :nth-child(4) a:hover {
+	font-size: 1.55em;
+	color: turquoise;
+}
+#tools :nth-child(5) a:hover {
+	font-size: 1.55em;
+	color: blue;
+}
+#tools :nth-child(6) a:hover {
+	font-size: 1.55em;
+	color: purple;
+}
+
+/* boxes to transform */
+
+.transbox {
+	width: 50%;
+	height: 200px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 5px;
+	background-color: purple;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 1s ease-in;
+	color: white;
+}
+.rotate:hover {
+	transform: rotate(360deg);
+}
+.translateX:hover {
+	transform: translateX(200px);
+}
+#bigOne {
+	/* padding: 0; */
+}
+#smallOne {
+	/* margin: 0; */
+	border: white solid 1px;
+}
